@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="view-port" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title></title>
+  </head>
+  <body>
+
+
+
+
+<!-- Preloader -->
+<div id="preloader">
+
+</div>
+
+
+
+<!-- Home -->
+<div id="home-container">
+
+      <div id="home">
+
+            <div id="game-name-div">
+                <div id="game-name"> Fruity </div>
+            </div>
+
+            <div id="touchArea">
+                  <div id="newGame">
+                    <button type="button" name="button" id="new-game-button">New game</button>
+                  </div>
+                  <div id="continue">
+                    <button type="button" name="button" id="continue-game-button">Continue</button>
+                  </div>
+                  <div id="leader-board-and-highest-level">
+                      <div id="leader-board">
+
+                      </div>
+                      <div id="highest-level">
+                        <img id="highest-level-image" src="assets/img/trophy.png" alt="trophy">
+                        <p id="highest-level-number">1</p>
+                      </div>
+                  </div>
+            </div>
+
+      </div>
+
+</div>
+<!-- Home End-->
+
+
+<!-- Pause -->
+    <div id="pause-menu-container">
+          <div id="pause-menu">
+
+
+              <div id="pause-menu-header">
+                  Paused
+              </div>
+
+              <div id="pause-menu-options">
+                  <div class="pause-menu-option">
+                    <span><i class="glyphicon glyphicon-play" id="play-button"></i></span>
+                  </div>
+
+                  <div class="pause-menu-option">
+                    <span><i class="glyphicon glyphicon-repeat" id="replay-button"></i></span>
+                  </div>
+                  <div class="pause-menu-option">
+                    <i class="glyphicon glyphicon-home" id="home-button-pause-menu"></i>
+                  </div>
+              </div>
+          </div>
+    </div>
+<!-- Pause End -->
+
+
+<!-- Game Over -->
+    <div id="game-over-container">
+          <div id="game-over-menu">
+
+
+              <div id="game-over-header">
+                  Game Over
+              </div>
+
+              <div id="game-over-options">
+                  <div class="pause-menu-option">
+                    <span><i class="glyphicon glyphicon-repeat" id="game-over-page-replay-button"></i></span>
+                  </div>
+
+
+                  <div class="pause-menu-option">
+                    <i class="glyphicon glyphicon-home" id="game-over-page-home-button"></i>
+                  </div>
+              </div>
+          </div>
+    </div>
+<!-- GameOver End -->
+
+
+<!-- Game Over -->
+    <div id="level-won-container">
+          <div id="level-won-menu">
+              <div id="level-won-header">
+                  Congratulations
+              </div>
+
+              <div id="level-won-options">
+                  <div class="pause-menu-option">
+                    <span><i class="glyphicon glyphicon-circle-arrow-right" id="level-won-page-next-button"></i></span>
+                  </div>
+
+                  <div class="pause-menu-option">
+                    <span><i class="glyphicon glyphicon-repeat" id="level-won-page-replay-button"></i></span>
+                  </div>
+
+
+                  <div class="pause-menu-option">
+                    <i class="glyphicon glyphicon-home" id="level-won-page-home-button"></i>
+                  </div>
+              </div>
+          </div>
+    </div>
+<!-- GameOver End -->
+
+
+
+<!-- Start -->
+  <div id="start-screen-container">
+      <div id="start-screen-play-button">
+        <img src="assets/img/play_button.png" alt="play_button">
+      </div>
+  </div>
+<!-- Start Ends -->
+
+
+
+<!-- Game World Container -->
+<div id="game-world-container">
+<!-- Game World Container Starts -->
+
+
+<!-- Game World -->
+<div id="game-world">
+
+
+
+                          <div id="game-information-container">
+
+
+                            <!-- Game Menu -->
+                            <div id="menu">
+
+                                        <div id="home-image">
+                                          <i class="glyphicon glyphicon-home" id="home-button"></i>
+                                        </div>
+
+                                        <div id="level">
+
+                                        </div>
+
+                                        <div id="pause">
+                                          <i class="glyphicon glyphicon-pause" id="pause-button"></i>
+                                        </div>
+                            </div>
+                            <!-- End of game menu -->
+
+                              <!-- Game info -->
+                              <div id="game-info">
+                                <div id="remaining-time">
+                                  10s
+                                </div>
+                                <div class="remaining-apples">
+                                  <span id="remainingFruits"> </span> <i class="glyphicon glyphicon-apple"></i>
+                                </div>
+                              </div>
+                              <!-- End of Game info -->
+
+
+
+                          </div>
+
+                            <!-- Game body -->
+                            <div id="game-body">
+
+                            </div>
+                            <!-- End of game body -->
+
+        </div>
+
+
+  <!-- Game World Container Ends -->
+</div>
+
+  <script src="script.js" defer>
+
+  </script>
+  </body>
+</html>

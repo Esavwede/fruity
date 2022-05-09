@@ -1,0 +1,338 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.preImg
+{
+  display: none;
+}
+
+
+#preloader
+{
+  width: 100vw;
+  height: 100vh;
+  background: #fff url('assets/img/loader.gif') no-repeat center;
+}
+
+
+#home-container
+{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#home
+{
+  display: none;
+  width: 90vw;
+  height: 90vh;
+  background: url('assets/img/fruits_small.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#game-name-div
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+}
+
+
+#game-name
+{
+  padding: 20px;
+  font-size: 70px;
+  color: white;
+  letter-spacing: 9px;
+}
+
+
+#touchArea
+{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+#new-game-button, #continue-game-button
+{
+  color: white;
+  padding: 20px;
+  font-size: 45px;
+  background-color: transparent;
+  font-weight: 900;
+}
+
+
+#leader-board-and-highest-level
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#leader-board-and-highest-level img
+{
+  width: 100%;
+  height: auto;
+}
+
+
+
+#leader-board
+{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+
+#leader-board
+{
+  background: url('assets/img/leaderBoard.png');
+}
+
+#highest-level
+{
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 30px;
+  color: white;
+}
+
+#highest-level-number, #highest-level-image
+{
+    display: inline;
+}
+
+
+
+#new-game-button:hover, #continue-game-button:hover
+{
+  transform: scale(1.5,1.5);
+}
+
+
+
+#game-world-container
+{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('assets/img/apples_bg.png');
+  background-position: fixed;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#game-world
+{
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  background-color: green;
+}
+
+
+
+#game-information-container
+{
+  height: 20%;
+  width: 100%;
+  background: url('assets/img/brown_wood.jpg');
+  color: white;
+}
+
+
+
+#home-image, #pause
+{
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
+#home-image:hover, #pause:hover
+{
+  transform: scale(1.7,1.7);
+}
+
+
+#menu
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 0 20px;
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 28px;
+}
+
+
+#menu div
+{
+
+}
+
+#game-info
+{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  color: white;
+  font-size: 30px;
+}
+
+#game-body
+{
+  position: relative;
+  background-color: white;
+  height: 80%;
+  font-size: 100px;
+}
+
+
+#pause-menu-container, #game-over-container, #level-won-container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FED5;
+    display: none;
+}
+
+#pause-menu, #game-over-menu, #level-won-menu
+{
+  position: relative;
+  width: 90%;
+  height: 90%;
+  background: url('assets/img/autumn_small.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#pause-menu-header, #game-over-header, #level-won-header
+{
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#pause-menu-options, #game-over-options, #level-won-options
+{
+  width: 100%;
+  height: auto;
+  background-color: rgba(255,255,255,0.2);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pause-menu-option
+{
+  height: auto;
+  width: auto;
+  font-size: 40px;
+  color: white;
+}
+
+.pause-menu-option:hover
+{
+  transform: scale(1.7,1.7);
+  cursor: pointer;
+}
+
+
+#start-screen-container
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  display: none;
+}
+
+
+#start-screen-play-button
+{
+  width: 100px;
+  height: 100px;
+}
+
+
+#start-screen-play-button:hover
+{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+
+#start-screen-play-button img
+{
+  width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #game-name
+  {
+    font-size: 70px;
+  }
+
+  #level, #remaining-time, #remaining-apples
+  {
+    font-size: 60px;
+  }
+}
