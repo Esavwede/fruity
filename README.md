@@ -1,4 +1,2 @@
-# My simple game 
+# A clicker game where you click the fruit before time runs out 
 
-
-## I created fruity For fun
